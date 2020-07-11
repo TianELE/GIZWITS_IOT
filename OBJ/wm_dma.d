@@ -1,0 +1,14 @@
+..\obj\wm_dma.o: ..\WMLIB\platform\drivers\wm_dma.c
+..\obj\wm_dma.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\wm_dma.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\wm_dma.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\wm_dma.o: ..\WMLIB\platform\inc\misc.h
+..\obj\wm_dma.o: ..\WMLIB\include\wm_regs.h
+..\obj\wm_dma.o: ..\WMLIB\include\armcc\core_cm3.h
+..\obj\wm_dma.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\wm_dma.o: ..\WMLIB\include\armcc\core_cmInstr.h
+..\obj\wm_dma.o: ..\WMLIB\include\armcc\core_cmFunc.h
+..\obj\wm_dma.o: ..\WMLIB\include\driver\wm_dma.h
+..\obj\wm_dma.o: ..\WMLIB\include\driver\wm_irq.h
+..\obj\wm_dma.o: ..\WMLIB\include\wm_type_def.h
+..\obj\wm_dma.o: ..\WMLIB\include\driver\wm_timer.h

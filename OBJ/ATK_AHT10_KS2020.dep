@@ -1,0 +1,989 @@
+Dependencies for Project 'ATK_AHT10', Target 'KS2020': (DO NOT MODIFY !)
+F (.\main.c)(0x5ED0D544)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\SYSTEM\delay\delay.h)(0x5D25C047)
+I (..\SYSTEM\usart\usart.h)(0x5D26FACD)
+I (..\HARDWARE\usart2\usart2.h)(0x5E6B565C)
+I (..\HARDWARE\LED\led.h)(0x5D25EE92)
+I (..\HARDWARE\LCD\lcd.h)(0x5EC38EFC)
+I (..\HARDWARE\KEY\key.h)(0x5D26AA3E)
+I (..\HARDWARE\SPI\spi.h)(0x5D285C00)
+I (..\HARDWARE\BEEP\beep.h)(0x5D29497E)
+I (..\HARDWARE\TIMER\timer.h)(0x5D26F2EB)
+I (..\HARDWARE\AHT10\aht10.h)(0x5D295987)
+I (..\HARDWARE\AP3216C\ap3216c.h)(0x5D295CC9)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\Gizwits\gizwits_product.h)(0x5ECCD4D2)
+I (..\Gizwits\gizwits_protocol.h)(0x5EC1B37E)
+I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\Utils\common.h)(0x5C796DA4)
+I (E:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599EDB3E)
+I (..\HARDWARE\DS18B20\ds18b20.h)(0x5EC48A42)
+I (..\HARDWARE\CCS811\CCS811.h)(0x5EC5F7BF)
+I (..\HARDWARE\IIC\CCS811iic.h)(0x5EC5F7BF)
+F (..\SYSTEM\sys\sys.c)(0x5D2802CB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+F (..\SYSTEM\sys\sys.h)(0x5D2890C5)()
+F (..\SYSTEM\delay\delay.c)(0x5D25C267)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x5D25C047)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+F (..\SYSTEM\delay\delay.h)(0x5D25C047)()
+F (..\SYSTEM\usart\usart.c)(0x5ECE5568)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\SYSTEM\usart\usart.h)(0x5D26FACD)
+F (..\SYSTEM\usart\usart.h)(0x5D26FACD)()
+F (..\WMLIB\platform\boot\armcc\startup.s)(0x5E6B52A7)(--cpu Cortex-M3 --li -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 526" --pd "ARMCM3 SETA 1"--list ..\obj\startup.lst --xref -o ..\obj\startup.o --depend ..\obj\startup.d)
+F (..\WMLIB\platform\boot\armcc\misc.c)(0x5BE7F4A9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+F (..\WMLIB\platform\drivers\wm_gpio.c)(0x5D2448E5)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\wm_gpio.o --omf_browse ..\obj\wm_gpio.crf --depend ..\obj\wm_gpio.d)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+F (..\WMLIB\platform\drivers\wm_cpu.c)(0x5CF6337D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\wm_cpu.o --omf_browse ..\obj\wm_cpu.crf --depend ..\obj\wm_cpu.d)
+I (..\WMLIB\include\wm_debug.h)(0x5D076E39)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+F (..\WMLIB\platform\drivers\wm_io.c)(0x5D1CCD27)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\wm_io.o --omf_browse ..\obj\wm_io.crf --depend ..\obj\wm_io.d)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\wm_dbg.h)(0x5BDE55EE)
+I (..\WMLIB\include\wm_debug.h)(0x5D076E39)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+F (..\WMLIB\platform\drivers\wm_irq.c)(0x5D25B4EB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\wm_irq.o --omf_browse ..\obj\wm_irq.crf --depend ..\obj\wm_irq.d)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+F (..\WMLIB\platform\drivers\wm_pmu.c)(0x5D1D6F51)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\wm_pmu.o --omf_browse ..\obj\wm_pmu.crf --depend ..\obj\wm_pmu.d)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_debug.h)(0x5D076E39)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+F (..\WMLIB\platform\drivers\wm_timer.c)(0x5D201438)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\wm_timer.o --omf_browse ..\obj\wm_timer.crf --depend ..\obj\wm_timer.d)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+F (..\WMLIB\platform\drivers\wm_gpio_afsel.c)(0x5D25518E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\wm_gpio_afsel.o --omf_browse ..\obj\wm_gpio_afsel.crf --depend ..\obj\wm_gpio_afsel.d)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\wm_debug.h)(0x5D076E39)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+F (..\WMLIB\platform\drivers\wm_watchdog.c)(0x5D26DE0A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\wm_watchdog.o --omf_browse ..\obj\wm_watchdog.crf --depend ..\obj\wm_watchdog.d)
+I (..\WMLIB\include\wm_debug.h)(0x5D076E39)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+F (..\WMLIB\platform\drivers\wm_pwm.c)(0x5D270B12)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\wm_pwm.o --omf_browse ..\obj\wm_pwm.crf --depend ..\obj\wm_pwm.d)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_debug.h)(0x5D076E39)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+F (..\WMLIB\platform\drivers\wm_hostspi.c)(0x5D280101)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\wm_hostspi.o --omf_browse ..\obj\wm_hostspi.crf --depend ..\obj\wm_hostspi.d)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_dma.h)(0x5C236A9C)
+I (..\WMLIB\platform\inc\wm_dbg.h)(0x5BDE55EE)
+I (..\WMLIB\include\wm_debug.h)(0x5D076E39)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+F (..\WMLIB\platform\drivers\wm_dma.c)(0x5D271117)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\wm_dma.o --omf_browse ..\obj\wm_dma.crf --depend ..\obj\wm_dma.d)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_dma.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+F (..\WMLIB\platform\drivers\wm_rtc.c)(0x5D293FA7)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\wm_rtc.o --omf_browse ..\obj\wm_rtc.crf --depend ..\obj\wm_rtc.d)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+F (..\HARDWARE\LED\led.c)(0x5ECE55F8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\HARDWARE\LED\led.h)(0x5D25EE92)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+F (..\HARDWARE\LED\led.h)(0x5D25EE92)()
+F (..\HARDWARE\KEY\key.c)(0x5ECE55E3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+I (..\HARDWARE\KEY\key.h)(0x5D26AA3E)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\SYSTEM\delay\delay.h)(0x5D25C047)
+F (..\HARDWARE\KEY\key.h)(0x5D26AA3E)()
+F (..\HARDWARE\LCD\lcd.c)(0x5ECE55D6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\lcd.o --omf_browse ..\obj\lcd.crf --depend ..\obj\lcd.d)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\SYSTEM\delay\delay.h)(0x5D25C047)
+I (..\HARDWARE\LCD\lcd.h)(0x5EC38EFC)
+I (..\HARDWARE\LCD\font.h)(0x5BE29ECA)
+I (..\HARDWARE\SPI\spi.h)(0x5D285C00)
+I (..\HARDWARE\LCD\alientek_log.h)(0x5BD67CF4)
+I (..\image\image1.h)(0x5E6C96CF)
+I (..\image\image2.h)(0x5E6C4AD7)
+I (..\image\image_wifi1.h)(0x5E6C5103)
+I (..\image\image_wifi2.h)(0x5E6C50FF)
+I (..\image\image_t.h)(0x5E6C5EB4)
+I (..\image\image_h.h)(0x5E6C5EB4)
+I (..\image\image_als.h)(0x5EC38ED1)
+F (..\HARDWARE\LCD\lcd.h)(0x5EC38EFC)()
+F (..\HARDWARE\SPI\spi.c)(0x5ECE5579)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\spi.o --omf_browse ..\obj\spi.crf --depend ..\obj\spi.d)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\HARDWARE\SPI\spi.h)(0x5D285C00)
+F (..\HARDWARE\SPI\spi.h)(0x5D285C00)()
+F (..\HARDWARE\AHT10\aht10.c)(0x5ED0D670)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\aht10.o --omf_browse ..\obj\aht10.crf --depend ..\obj\aht10.d)
+I (..\HARDWARE\AHT10\aht10.h)(0x5D295987)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\SYSTEM\delay\delay.h)(0x5D25C047)
+I (..\HARDWARE\MYIIC\myiic.h)(0x5D29595F)
+F (..\HARDWARE\AHT10\aht10.h)(0x5D295987)()
+F (..\HARDWARE\MYIIC\myiic.c)(0x5ED0BB65)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\myiic.o --omf_browse ..\obj\myiic.crf --depend ..\obj\myiic.d)
+I (..\HARDWARE\MYIIC\myiic.h)(0x5D29595F)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\SYSTEM\delay\delay.h)(0x5D25C047)
+F (..\HARDWARE\MYIIC\myiic.h)(0x5D29595F)()
+F (..\HARDWARE\WDT\wdt.c)(0x5D26E4E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\wdt.o --omf_browse ..\obj\wdt.crf --depend ..\obj\wdt.d)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\HARDWARE\WDT\wdt.h)(0x5D26F307)
+F (..\HARDWARE\WDT\wdt.h)(0x5D26F307)()
+F (..\HARDWARE\TIMER\timer.c)(0x5ED0D2EC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\HARDWARE\TIMER\timer.h)(0x5D26F2EB)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\HARDWARE\LED\led.h)(0x5D25EE92)
+I (..\Gizwits\gizwits_product.h)(0x5ECCD4D2)
+I (..\Gizwits\gizwits_protocol.h)(0x5EC1B37E)
+I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\Utils\common.h)(0x5C796DA4)
+I (E:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599EDB3E)
+F (..\HARDWARE\TIMER\timer.h)(0x5D26F2EB)()
+F (..\HARDWARE\usart2\usart2.c)(0x5ECE55A5)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\usart2.o --omf_browse ..\obj\usart2.crf --depend ..\obj\usart2.d)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\HARDWARE\usart2\usart2.h)(0x5E6B565C)
+I (..\Gizwits\gizwits_product.h)(0x5ECCD4D2)
+I (..\Gizwits\gizwits_protocol.h)(0x5EC1B37E)
+I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\Utils\common.h)(0x5C796DA4)
+I (E:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599EDB3E)
+F (..\HARDWARE\usart2\usart2.h)(0x5E6B565C)()
+F (..\HARDWARE\AP3216C\ap3216c.c)(0x5ED0D79C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\ap3216c.o --omf_browse ..\obj\ap3216c.crf --depend ..\obj\ap3216c.d)
+I (..\HARDWARE\AP3216C\ap3216c.h)(0x5D295CC9)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\HARDWARE\MYIIC2\myiic2.h)(0x5EC3831E)
+I (..\SYSTEM\delay\delay.h)(0x5D25C047)
+F (..\HARDWARE\MYIIC2\myiic2.c)(0x5ECE55B7)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\myiic2.o --omf_browse ..\obj\myiic2.crf --depend ..\obj\myiic2.d)
+I (..\HARDWARE\MYIIC2\myiic2.h)(0x5EC3831E)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\SYSTEM\delay\delay.h)(0x5D25C047)
+F (..\HARDWARE\DS18B20\ds18b20.c)(0x5ECE55C6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\ds18b20.o --omf_browse ..\obj\ds18b20.crf --depend ..\obj\ds18b20.d)
+I (..\HARDWARE\DS18B20\ds18b20.h)(0x5EC48A42)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\SYSTEM\delay\delay.h)(0x5D25C047)
+F (..\HARDWARE\CCS811\CCS811.c)(0x5ED0D8C8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\ccs811.o --omf_browse ..\obj\ccs811.crf --depend ..\obj\ccs811.d)
+I (..\HARDWARE\CCS811\CCS811.h)(0x5EC5F7BF)
+I (..\SYSTEM\delay\delay.h)(0x5D25C047)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\HARDWARE\IIC\CCS811iic.h)(0x5EC5F7BF)
+F (..\HARDWARE\IIC\CCS811iic.c)(0x5ECE5555)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\ccs811iic.o --omf_browse ..\obj\ccs811iic.crf --depend ..\obj\ccs811iic.d)
+I (..\HARDWARE\IIC\CCS811iic.h)(0x5EC5F7BF)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\SYSTEM\delay\delay.h)(0x5D25C047)
+F (..\HARDWARE\BEEP\beep.c)(0x5ECE55F8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\beep.o --omf_browse ..\obj\beep.crf --depend ..\obj\beep.d)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\HARDWARE\BEEP\beep.h)(0x5D29497E)
+F (..\readme.txt)(0x5D303390)()
+F (..\Gizwits\gizwits_product.c)(0x5EDA5347)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\gizwits_product.o --omf_browse ..\obj\gizwits_product.crf --depend ..\obj\gizwits_product.d)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\Gizwits\gizwits_product.h)(0x5ECCD4D2)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Gizwits\gizwits_protocol.h)(0x5EC1B37E)
+I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\Utils\common.h)(0x5C796DA4)
+I (E:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599EDB3E)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\HARDWARE\LED\led.h)(0x5D25EE92)
+I (..\HARDWARE\LCD\lcd.h)(0x5EC38EFC)
+I (..\HARDWARE\BEEP\beep.h)(0x5D29497E)
+I (..\HARDWARE\usart2\usart2.h)(0x5E6B565C)
+I (..\SYSTEM\delay\delay.h)(0x5D25C047)
+F (..\Gizwits\gizwits_product.h)(0x5ECCD4D2)()
+F (..\Gizwits\gizwits_protocol.c)(0x5EC1B37E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\gizwits_protocol.o --omf_browse ..\obj\gizwits_protocol.crf --depend ..\obj\gizwits_protocol.d)
+I (..\Utils\ringBuffer.h)(0x5C796DA4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\Gizwits\gizwits_product.h)(0x5ECCD4D2)
+I (..\Gizwits\gizwits_protocol.h)(0x5EC1B37E)
+I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\Utils\common.h)(0x5C796DA4)
+I (E:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599EDB3E)
+I (..\SYSTEM\sys\sys.h)(0x5D2890C5)
+I (..\WMLIB\platform\inc\misc.h)(0x5BDE4F27)
+I (..\WMLIB\include\wm_regs.h)(0x5D26DD02)
+I (..\WMLIB\include\armcc\core_cm3.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmInstr.h)(0x5BDE4F26)
+I (..\WMLIB\include\armcc\core_cmFunc.h)(0x5BDE4F26)
+I (..\WMLIB\include\wm_type_def.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_cpu.h)(0x5D24B55D)
+I (..\WMLIB\include\wm_ram_config.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_gpio.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_io.h)(0x5D244A77)
+I (..\WMLIB\include\driver\wm_gpio_afsel.h)(0x5D076F10)
+I (..\WMLIB\include\driver\wm_irq.h)(0x5BDE4F26)
+I (..\WMLIB\platform\inc\tls_common.h)(0x5D2448D8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\WMLIB\include\wm_config.h)(0x5D076E21)
+I (..\WMLIB\include\driver\wm_uart_new.h)(0x5D244906)
+I (..\WMLIB\include\driver\wm_uart.h)(0x5D21A9D6)
+I (..\WMLIB\include\list.h)(0x5BDE4F26)
+I (..\WMLIB\include\driver\wm_pmu.h)(0x5C236A9C)
+I (..\WMLIB\include\driver\wm_watchdog.h)(0x5C1C4FFB)
+I (..\WMLIB\include\driver\wm_timer.h)(0x5D2447AF)
+I (..\WMLIB\include\driver\wm_pwm.h)(0x5D1CB544)
+I (..\WMLIB\include\driver\wm_hostspi.h)(0x5D27ED78)
+I (..\WMLIB\include\driver\wm_spi_hal.h)(0x5CF6337D)
+I (..\WMLIB\include\driver\wm_rtc.h)(0x5C1C4FFB)
+I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
+I (..\Utils\dataPointTools.h)(0x5C796DA4)
+F (..\Gizwits\gizwits_protocol.h)(0x5EC1B37E)()
+F (..\Utils\common.c)(0x5C796DA4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\common.o --omf_browse ..\obj\common.crf --depend ..\obj\common.d)
+I (..\Utils\common.h)(0x5C796DA4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599EDB3E)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+F (..\Utils\common.h)(0x5C796DA4)()
+F (..\Utils\dataPointTools.c)(0x5C796DA4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\datapointtools.o --omf_browse ..\obj\datapointtools.crf --depend ..\obj\datapointtools.d)
+I (..\Utils\dataPointTools.h)(0x5C796DA4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\Utils\common.h)(0x5C796DA4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (E:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599EDB3E)
+F (..\Utils\dataPointTools.h)(0x5C796DA4)()
+F (..\Utils\ringbuffer.c)(0x5C796DA4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\WMLIB\include -I ..\WMLIB\include\armcc -I ..\WMLIB\include\driver -I ..\WMLIB\include\platform -I ..\WMLIB\platform\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\usart2 -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDT -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\LCD -I ..\HARDWARE\SPI -I ..\USMART -I ..\HARDWARE\RTC -I ..\HARDWARE\AHT10 -I ..\HARDWARE\MYIIC -I ..\image -I ..\HARDWARE\AP3216C -I ..\Utils -I ..\Gizwits -I ..\HARDWARE\MYIIC2 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\CCS811 -I ..\HARDWARE\IIC -I ..\HARDWARE\BEEP-I.\RTE\_KS2020-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM3-o ..\obj\ringbuffer.o --omf_browse ..\obj\ringbuffer.crf --depend ..\obj\ringbuffer.d)
+I (..\Utils\ringBuffer.h)(0x5C796DA4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\Utils\common.h)(0x5C796DA4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (E:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599EDB3E)
+F (..\Utils\ringBuffer.h)(0x5C796DA4)()
+F (..\image\image1.h)(0x5E6C96CF)()
+F (..\image\image2.h)(0x5E6C4AD7)()
+F (..\image\image_wifi1.h)(0x5E6C5103)()
+F (..\image\image_wifi2.h)(0x5E6C50FF)()
+F (..\image\image_h.h)(0x5E6C5EB4)()
+F (..\image\image_t.h)(0x5E6C5EB4)()
+F (..\image\image_als.h)(0x5EC38ED1)()
